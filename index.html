@@ -1,20 +1,91 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Portfolio</title>
-  </head>
-  <body>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woody Bean Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4e4bc; /* 따뜻한 베이지 */
+            color: #4a4a4a;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #8b4513; /* 갈색 */
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2em;
+        }
+        nav {
+            background-color: #a0522d;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #8b4513;
+            font-weight: 700;
+        }
+        ul {
+            list-style-type: none;
+        }
+        li {
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #8b4513;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
     <header>
-      <h1>My Portfolio</h1>
+        <h1>Woody Bean Cafe</h1>
     </header>
-    <main>
-      <section>
-        <h2>Projects</h2>
-        <p>I built a dashboard</p>
-      </section>
-    </main>
+    <nav>
+        <a href="#about">소개</a>
+        <a href="#menu">메뉴</a>
+        <a href="#contact">연락처</a>
+    </nav>
+    <section id="about">
+        <h2>소개</h2>
+        <p>Woody Bean Cafe는 따뜻한 오두막 같은 분위기에서 최고의 커피와 디저트를 즐길 수 있는 곳입니다. 자연스러운 재료로 만든 음료와 간식을 만나보세요!</p>
+    </section>
+    <section id="menu">
+        <h2>메뉴</h2>
+        <ul>
+            <li>아메리카노 - 4,000원</li>
+            <li>카페라떼 - 4,500원</li>
+            <li>초코케이크 - 5,000원</li>
+            <li>쿠키 - 2,500원</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>연락처</h2>
+        <p>주소: 서울시 강남구 오두막길 123</p>
+        <p>전화: 010-1234-5678</p>
+        <p>이메일: info@woodybean.com</p>
+    </section>
     <footer>
-      <p>&copy; 2026</p>
+        <p>&copy; 2026 Woody Bean Cafe</p>
     </footer>
-  </body>
+</body>
 </html>
